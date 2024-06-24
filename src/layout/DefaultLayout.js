@@ -16,6 +16,7 @@ import {
 import { DocsExample } from 'src/components'
 import { AppContent, AppSidebar, AppFooter, AppHeader } from '../components/index'
 import ToastExample from '../toast'
+import NotifButton from '../notifButton'
 
 const DefaultLayout = () => {
   return (
@@ -26,6 +27,7 @@ const DefaultLayout = () => {
         <div className="body flex-grow-1">
           <AppContent />
           <ToastExample />
+          <NotifButton/>
           {/* <CRow>
             <CCol xs={12}>
           <CCard className="mb-4">
