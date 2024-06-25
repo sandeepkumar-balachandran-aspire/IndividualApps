@@ -8,7 +8,7 @@ import 'simplebar-react/dist/simplebar.min.css';
 import { CBadge, CNavLink, CSidebarNav } from '@coreui/react';
 
 export const AppSidebarNav = ({ items }) => {
-  const navLink = (name, icon, badge, indent = false) => {
+  const navLink = (name, icon, badge, indent = true) => {
     // Debugging logs to check badge values
     console.log('navLink badge:', badge);
 
@@ -36,7 +36,7 @@ export const AppSidebarNav = ({ items }) => {
     );
   };
 
-  const navItem = (item, index, indent = false) => {
+  const navItem = (item, index, indent = true) => {
     const { component: Component, name, badge, icon, ...rest } = item;
 
     // Debugging logs to check item and badge values
