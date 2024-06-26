@@ -24,8 +24,6 @@ import {
   CDropdownHeader,
 } from '@coreui/react'
 
-import ToastExample from '../../../toast'
-import NotifButton from '../../../notifButton'
 import { DocsExample } from 'src/components'
 
 import AngularImg from 'src/assets/images/angular.jpg'
@@ -70,9 +68,6 @@ const Carousels = () => {
       </div>
       
     </CForm>
-    <ToastExample />
-    <NotifButton/>
-    </div>
     
   )
 }
