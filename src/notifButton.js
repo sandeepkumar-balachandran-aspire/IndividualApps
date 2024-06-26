@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React, { useEffect, useState } from 'react'
 import { registerServiceWorker, requestNotificationPermission } from './notificationHub'
+import { CButton } from '@coreui/react'
 
 function NotifButton() {
   const [registration, setRegistration] = useState(null)
@@ -25,8 +26,8 @@ function NotifButton() {
 
   return (
     <div className="App">
-      <h1>React Azure Push Notification</h1>
-      <button onClick={handleButtonClick}>Show Notification</button>
+      <h5> Click below for Push Notification</h5>
+      <CButton color="primary" onClick={handleButtonClick}>Show Notification</CButton>
     </div>
   )
 }
