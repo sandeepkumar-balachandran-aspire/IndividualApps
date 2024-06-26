@@ -33,7 +33,7 @@ const _nav = [
       {
         component: CNavItem,
         name: 'Open',
-        to: '/base/navbars',
+        to: '/base/carousels',
       },
       {
         component: CNavItem,
