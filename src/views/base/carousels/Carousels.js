@@ -66,7 +66,6 @@ const Carousels = () => {
         <CButton color="primary" type="submit" className="mb-3">Submit</CButton>
       </CCol>
       </div>
-      
     </CForm>
     
   )
