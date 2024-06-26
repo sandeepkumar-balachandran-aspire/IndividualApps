@@ -24,8 +24,7 @@ import {
   CDropdownHeader,
 } from '@coreui/react'
 
-import ToastExample from '../../../toast'
-import NotifButton from '../../../notifButton'
+
 import { DocsExample } from 'src/components'
 
 import AngularImg from 'src/assets/images/angular.jpg'
@@ -40,7 +39,6 @@ const slidesLight = [
 
 const Carousels = () => {
   return (
-    <div>
     <CForm className="row g-3">
       <div>
       <CCol>
@@ -70,9 +68,8 @@ const Carousels = () => {
       </div>
       
     </CForm>
-    <ToastExample />
-    <NotifButton/>
-    </div>
+    
+    
     
   )
 }
